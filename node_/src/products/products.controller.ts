@@ -24,7 +24,7 @@ export class ProductController{
     // hanlde router
     router.get('/test', this.test.bind(this));
 
-    router.get('/getAll', this.getFoods);
+    router.get('/getAll', this.getFoods.bind(this));
 
   }
 
